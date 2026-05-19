@@ -1,2 +1,2 @@
-# Gerente-de-Finanzas
-Gerente de finanzas Externo
+# Gerencia-finanzas
+Página web de consultoría financiera para PyMEs
