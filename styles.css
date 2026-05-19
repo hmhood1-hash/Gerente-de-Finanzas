@@ -220,33 +220,18 @@ body {
     align-items: flex-end;
 }
 
-.chart-container {
-    display: flex;
-    gap: 30px;
-    align-items: flex-end;
-    height: 300px;
+.hero-image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-.chart-bar {
-    width: 80px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 12px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    color: white;
-    font-weight: 800;
-    font-size: 1.5rem;
-    animation: barAnimation 1.5s ease-out;
-}
-
-@keyframes barAnimation {
-    from {
-        height: 0;
-    }
-    to {
-        height: auto;
-    }
+.hero-image-grid img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.35);
 }
 
 /* ===========================
