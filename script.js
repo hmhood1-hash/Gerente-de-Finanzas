@@ -105,7 +105,7 @@ Mensaje enviado desde el sitio web`;
         const encodedMessage = encodeURIComponent(whatsappMessage);
         
         // Número de WhatsApp (reemplazar con el tuyo)
-        const whatsappNumber = '+573001234567';
+        const whatsappNumber = '56995342240';
         
         // Crear URL de WhatsApp
         const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
