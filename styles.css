@@ -240,6 +240,18 @@ body {
     animation: barAnimation 1.5s ease-out;
 }
 
+.hero-photo {
+    width: 170px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.25);
+}
+
+.hero-photo:last-child {
+    height: 240px;
+}
+
 @keyframes barAnimation {
     from {
         height: 0;
